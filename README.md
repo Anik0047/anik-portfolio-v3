@@ -16,7 +16,7 @@ A modern, feature-rich personal portfolio built with Next.js, React, and TypeScr
 - **State Management**: Zustand
 - **Accessibility**: Focus-visible, keyboard navigation
 - **Performance**: Optimized images, code splitting, and more
-- **Analytics**: Google Analytics integration
+<!-- - **Analytics**: Google Analytics integration -->
 
 ---
 
@@ -87,11 +87,11 @@ pnpm typecheck
 
 Feel free to reach out via the contact form on the site or connect with me on [LinkedIn](https://www.linkedin.com/in/anik0047/).
 
----
+<!-- ---
 
 ## 📝 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. -->
 
 ---
 
