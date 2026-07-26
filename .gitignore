@@ -1,0 +1,57 @@
+# ─── Dependencies ───────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Next.js ────────────────────────────────────────────────────
+.next/
+out/
+build/
+dist/
+
+# ─── Environment Variables ──────────────────────────────────────
+.env*
+!.env.example
+
+# ─── TypeScript ─────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Logs ───────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Testing / Coverage ─────────────────────────────────────────
+coverage/
+
+# ─── React Email ────────────────────────────────────────────────
+react-email-starter/
+.react-email/
+.react-email-cache/
+
+# ─── IDE / Editor ───────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+
+# ─── OS Files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Tooling ────────────────────────────────────────────────────
+.vercel
+.turbo
+.cache
+tmp/
+temp/
+*.tmp
+
+# ─── Personal ───────────────────────────────────────────────────
+inspirations.txt
+
+

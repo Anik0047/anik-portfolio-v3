@@ -1,0 +1,31 @@
+re-commit:
+  parallel: true
+  commands:
+    biome-lint:
+      glob: "**/*.{js,jsx,ts,tsx,json}"
+      exclude: |
+        node_modules/
+        .next/
+        dist/
+        build/
+        .vercel/
+        coverage/
+        .git/
+      run: pnpm biome check --apply-unsafe {staged_files}
+      stage_fixed: true
+      skip:
+        - rebase
+        - merge
+ 
+commit-msg:
+  commands:
+    commitlint:
+      run: pnpm commitlint --edit {1}
+ 
+post-merge:
+  commands:
+    install-deps:
+      run: pnpm install --frozen-lockfile 2>/dev/null || pnpm install
+      skip:
+        - merge
+        - rebase
