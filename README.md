@@ -1,4 +1,4 @@
-# Siam Portfolio
+# Anik Portfolio
 
 A modern, feature-rich personal portfolio built with Next.js, React, and TypeScript. This project showcases my work, skills, and contact information, and includes advanced UI/UX, animations, and PWA support.
 
@@ -85,7 +85,7 @@ pnpm typecheck
 
 ## 📬 Contact
 
-Feel free to reach out via the contact form on the site or connect with me on [LinkedIn](https://www.linkedin.com/in/siamparvez/).
+Feel free to reach out via the contact form on the site or connect with me on [LinkedIn](https://www.linkedin.com/in/anik0047/).
 
 ---
 
@@ -106,4 +106,4 @@ This project is licensed under the MIT License.
 
 ---
 
-> Built and maintained by Siam Parvez
+> Built and maintained by Anik Barua
