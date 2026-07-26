@@ -82,25 +82,25 @@ export function DevToolsDetected({ children }: DevToolsDetectedProps) {
         )}
       >
         {/* Clock icon */}
-        <div className="flex-center rounded-full size-12 bg-primary">
+        <div className='flex-center rounded-full size-12 bg-primary'>
           <FingerprintPattern
-            className="size-7 text-lemon dark:text-background"
+            className='size-7 text-lemon dark:text-background'
             strokeWidth={1.5}
           />
         </div>
 
         {/* Headline */}
-        <div className="text-center space-y-2">
-          <p className="text-xs typo-label typo-mono typo-subtle">
+        <div className='text-center space-y-2'>
+          <p className='text-xs typo-label typo-mono typo-subtle'>
             Access Restricted
           </p>
-          <h1 className="text-3xl lowercase text-foreground typo-display leading-7">
+          <h1 className='text-3xl lowercase text-foreground typo-display leading-7'>
             DEV TOOLS{' '}
-            <span className="typo-display-outline text-2xl text-primary">
+            <span className='typo-display-outline text-2xl text-primary'>
               detected
             </span>
           </h1>
-          <p className="text-sm mt-6 mb-2 typo-body typo-subtle">
+          <p className='text-sm mt-6 mb-2 typo-body typo-subtle'>
             Curious about how this was built?
             <br />
             Let&apos;s connect and chat about it.
@@ -108,16 +108,16 @@ export function DevToolsDetected({ children }: DevToolsDetectedProps) {
         </div>
 
         {/* CTA Buttons */}
-        <Button asChild className="w-full h-10 lg:h-12">
-          <Link href="mailto:hello@siamparvez.com">
-            <Mail className="size-4" />
+        <Button asChild className='w-full h-10 lg:h-12'>
+          <Link href='mailto:anik.barua.dev@gmail.com'>
+            <Mail className='size-4' />
             <span>Get in Touch</span>
           </Link>
         </Button>
 
         {/* Footer */}
-        <p className="text-center typo-body text-xs w-full typo-ghost">
-          &copy; {new Date().getFullYear()} Siam Parvez
+        <p className='text-center typo-body text-xs w-full typo-ghost'>
+          &copy; {new Date().getFullYear()} Anik Barua
         </p>
       </Card>
     </div>
